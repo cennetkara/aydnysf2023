@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+    background: #20B2AA;
+}
+
+.wrapper {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.wrapper form {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+form .url-icon {
+    position: absolute;
+    width: 100px;
+    padding: 0px 45px 0 310px;
+    font-size: 23px;
+    left: 0; /* Sola yaslanması için */
+    pointer-events: none;
+}
+ form input[type="text"] {
+    height: 40px;
+    width: calc(100% - 70px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} 
+
+form input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 23px;
+  caret-color: #20B2AA; 
+  border: 5px solid #ffffff;
+  padding: 0 130px 0 55px;
+ 
+}
+  
+form input::placeholder{
+color: #20B2AA ;
+}
+
+form button {
+    position: absolute;
+    right: 290px; /* Butonun sağ kenardan 10px uzaklıkta olması */
+    top: 43%; /* Butonun dikeyde kutucuğun ortasına hizalanması */
+    transform: translateY(-230%); /* Butonu dikeyde tam ortaya hizalamak için */
+    height: 40px;
+    padding: 0 10px;
+    background-color: #59b2b2;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .wrapper .count{
+
+} */
